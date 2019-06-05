@@ -46,3 +46,6 @@ def spiralCopy(matrix):
 
 print(spiralCopy(inputMatrix))
 print(output)
+
+# ideally we'd want to not modify the input array and therefore not have to make a copy of it
+# time complexity O(n) where n is the count of elements in the matrix
